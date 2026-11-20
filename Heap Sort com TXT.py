@@ -1,14 +1,6 @@
 import random
 import time
 
-# VANTAGENS:
-# 1. Complexidade garantida de O(n log n) em todos os casos.
-# 2. É "in-place" (usa pouca memória extra).
-
-# DESVANTAGENS:
-# 1. É um algoritmo mais difícil de entender e implementar.
-# 2. Não é um algoritmo "estável".
-
 def heapify(lista, n, i):
     maior = i
     esquerda = 2 * i + 1
